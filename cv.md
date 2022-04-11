@@ -3,7 +3,7 @@
 # Aslani Oniani
 ### Junior Frontend Developer
 
-<img width="250px" alt="CV-img" src="Assets/CV-img.png">
+<img width="260px" alt="CV-img" src="Assets/CV-img.png">
 
 ### Contacts:
 __Phone:__ +995 579 41 11 99  
