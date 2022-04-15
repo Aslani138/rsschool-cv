@@ -1,0 +1,139 @@
+:root {
+    --side-color: #c79a55;
+    --main-color: #292d32;
+    --text-color: #e1e0e5;
+}
+
+
+body {
+    background-color: #d9d8dd;
+}
+
+.cv-image {
+    width: 13rem;
+    border-radius: 20%;
+    padding: 1rem;
+}
+
+main {
+    background-color: var(--main-color);
+    border: 5px solid var(--side-color);
+    width: 50rem;
+    margin: auto;
+}
+
+.cv-header {
+    display: flex;;
+    justify-content: space-evenly;
+}
+
+.name {
+    margin: auto 0;
+    font-size: 3rem;
+    color: var(--text-color);
+    border-bottom: 5px solid black;
+}
+
+.main-content-header {
+    color: var(--text-color);
+    font-size: 2rem;
+    padding: 0 1rem 0 1rem;
+    margin: 1rem;
+}
+
+.contact-li {
+    list-style: none;
+    padding: 0;
+    color: var(--text-color);
+    padding: 0 1rem 0 1rem;
+    font-size: 1.2rem;
+}
+
+.main-content-first {
+    display: flex;
+}
+
+.about-me {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.contact {
+    flex-basis: 0;
+    flex-grow: 1;
+    border-right: 3px solid var(--side-color);
+}
+
+.about-me-text {
+    color: var(--text-color);
+    padding: 0 1rem 0 1rem;
+    font-size: 1.2rem;
+}
+
+.contact-li-span {
+    font-weight: bolder;
+}
+
+.skills-li {
+    padding: 0;
+    color: var(--text-color);
+    padding: 0 2rem 0 2rem;
+    font-size: 1.2rem;
+}
+
+.main-content-second {
+    display: flex;
+}
+
+.skills {
+    flex-basis: 0;
+    flex-grow: 1;
+    border-right: 3px solid var(--side-color);
+}
+
+.experience {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.experience-text {
+    color: var(--text-color);
+    padding: 0 1rem 0 1rem;
+    font-size: 1.2rem;
+}
+
+.main-content-last {
+    display: flex;
+}
+
+.education {
+    flex-basis: 0;
+    flex-grow: 1;
+    border-right: 3px solid var(--side-color);
+}
+
+.languages {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: var(--side-color);
+    display: flex;
+    justify-content: space-evenly;
+    height: 10rem;
+}
+
+.footer-img {
+    width: 5rem;
+    margin: 1rem;
+}
+
+.footer-date {
+    font-size: 3rem;
+    margin: auto 0;
+}
+
+.footer-links {
+    margin: auto 0;
+}
