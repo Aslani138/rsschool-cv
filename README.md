@@ -1,1 +1,1 @@
-https://Aslani138.github.github.io/rsschool-cv/
+https://Aslani138.github.io/rsschool-cv/
