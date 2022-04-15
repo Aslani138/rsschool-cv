@@ -101,3 +101,22 @@ main {
     padding: 0 1rem 0 1rem;
     font-size: 1.2rem;
 }
+
+.main-content-last {
+    display: flex;
+}
+
+.education {
+    flex-basis: 0;
+    flex-grow: 1;
+    border-right: 3px solid var(--side-color);
+}
+
+.languages {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: var(--side-color);
+}
