@@ -119,4 +119,21 @@ main {
 
 footer {
     background-color: var(--side-color);
+    display: flex;
+    justify-content: space-evenly;
+    height: 10rem;
+}
+
+.footer-img {
+    width: 5rem;
+    margin: 1rem;
+}
+
+.footer-date {
+    font-size: 3rem;
+    margin: auto 0;
+}
+
+.footer-links {
+    margin: auto 0;
 }
