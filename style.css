@@ -26,7 +26,20 @@ main {
   padding: 1rem;
 }
 
+.cv-image {
+  width: 13rem;
+  border-radius: 20%;
+  padding: 1rem;
+}
+
 .cv-header > h1 {
+  margin: auto 0;
+  font-size: 3rem;
+  color: var(--text-color);
+  border-bottom: 5px solid black;
+}
+
+.name {
   margin: auto 0;
   font-size: 3rem;
   color: var(--text-color);
@@ -55,6 +68,12 @@ main {
   font-size: 1.2rem;
 }
 
+.about-me-text {
+  color: var(--text-color);
+  padding: 0 1rem 0 1rem;
+  font-size: 1.2rem;
+}
+
 .contact {
   flex-basis: 0;
   flex-grow: 1;
@@ -69,7 +88,19 @@ main {
   font-size: 1.2rem;
 }
 
+.contact-li {
+  list-style: none;
+  padding: 0;
+  color: var(--text-color);
+  padding: 0 1rem 0 1rem;
+  font-size: 1.2rem;
+}
+
 .contact > ul > li > span {
+  font-weight: bolder;
+}
+
+contact-li-span {
   font-weight: bolder;
 }
 
@@ -96,6 +127,12 @@ main {
 }
 
 .experience > p {
+  color: var(--text-color);
+  padding: 0 1rem 0 1rem;
+  font-size: 1.2rem;
+}
+
+.experience-text {
   color: var(--text-color);
   padding: 0 1rem 0 1rem;
   font-size: 1.2rem;
@@ -158,6 +195,10 @@ footer {
 }
 
 .skills-li > li > a {
+  color: var(--text-color);
+}
+
+.project-color {
   color: var(--text-color);
 }
 
