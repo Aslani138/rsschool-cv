@@ -1,139 +1,163 @@
 :root {
-    --side-color: #c79a55;
-    --main-color: #292d32;
-    --text-color: #e1e0e5;
+  --side-color: #c79a55;
+  --main-color: #292d32;
+  --text-color: #e1e0e5;
 }
-
 
 body {
-    background-color: #d9d8dd;
-}
-
-.cv-image {
-    width: 13rem;
-    border-radius: 20%;
-    padding: 1rem;
+  background-color: #d9d8dd;
 }
 
 main {
-    background-color: var(--main-color);
-    border: 5px solid var(--side-color);
-    width: 50rem;
-    margin: auto;
+  background-color: var(--main-color);
+  border: 5px solid var(--side-color);
+  width: 50rem;
+  margin: auto;
 }
 
 .cv-header {
-    display: flex;;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.name {
-    margin: auto 0;
-    font-size: 3rem;
-    color: var(--text-color);
-    border-bottom: 5px solid black;
+.cv-header > img {
+  width: 13rem;
+  border-radius: 20%;
+  padding: 1rem;
+}
+
+.cv-header > h1 {
+  margin: auto 0;
+  font-size: 3rem;
+  color: var(--text-color);
+  border-bottom: 5px solid black;
 }
 
 .main-content-header {
-    color: var(--text-color);
-    font-size: 2rem;
-    padding: 0 1rem 0 1rem;
-    margin: 1rem;
-}
-
-.contact-li {
-    list-style: none;
-    padding: 0;
-    color: var(--text-color);
-    padding: 0 1rem 0 1rem;
-    font-size: 1.2rem;
+  color: var(--text-color);
+  font-size: 2rem;
+  padding: 0 1rem 0 1rem;
+  margin: 1rem;
 }
 
 .main-content-first {
-    display: flex;
+  display: flex;
 }
 
 .about-me {
-    flex-basis: 0;
-    flex-grow: 1;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.about-me > p {
+  color: var(--text-color);
+  padding: 0 1rem 0 1rem;
+  font-size: 1.2rem;
 }
 
 .contact {
-    flex-basis: 0;
-    flex-grow: 1;
-    border-right: 3px solid var(--side-color);
+  flex-basis: 0;
+  flex-grow: 1;
+  border-right: 3px solid var(--side-color);
 }
 
-.about-me-text {
-    color: var(--text-color);
-    padding: 0 1rem 0 1rem;
-    font-size: 1.2rem;
+.contact > ul {
+  list-style: none;
+  padding: 0;
+  color: var(--text-color);
+  padding: 0 1rem 0 1rem;
+  font-size: 1.2rem;
 }
 
-.contact-li-span {
-    font-weight: bolder;
-}
-
-.skills-li {
-    padding: 0;
-    color: var(--text-color);
-    padding: 0 2rem 0 2rem;
-    font-size: 1.2rem;
+.contact > ul > li > span {
+  font-weight: bolder;
 }
 
 .main-content-second {
-    display: flex;
+  display: flex;
 }
 
 .skills {
-    flex-basis: 0;
-    flex-grow: 1;
-    border-right: 3px solid var(--side-color);
+  flex-basis: 0;
+  flex-grow: 1;
+  border-right: 3px solid var(--side-color);
+}
+
+.skills-li {
+  padding: 0;
+  color: var(--text-color);
+  padding: 0 2rem 0 2rem;
+  font-size: 1.2rem;
 }
 
 .experience {
-    flex-basis: 0;
-    flex-grow: 1;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
-.experience-text {
-    color: var(--text-color);
-    padding: 0 1rem 0 1rem;
-    font-size: 1.2rem;
+.experience > p {
+  color: var(--text-color);
+  padding: 0 1rem 0 1rem;
+  font-size: 1.2rem;
 }
 
 .main-content-last {
-    display: flex;
+  display: flex;
 }
 
 .education {
-    flex-basis: 0;
-    flex-grow: 1;
-    border-right: 3px solid var(--side-color);
+  flex-basis: 0;
+  flex-grow: 1;
+  border-right: 3px solid var(--side-color);
 }
 
 .languages {
-    flex-basis: 0;
-    flex-grow: 1;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
 footer {
-    background-color: var(--side-color);
-    display: flex;
-    justify-content: space-evenly;
-    height: 10rem;
+  background-color: var(--side-color);
+  display: flex;
+  justify-content: space-evenly;
+  height: 10rem;
 }
 
 .footer-img {
-    width: 5rem;
-    margin: 1rem;
+  width: 5rem;
+  margin: 1rem;
 }
 
 .footer-date {
-    font-size: 3rem;
-    margin: auto 0;
+  font-size: 3rem;
+  margin: auto 0;
 }
 
 .footer-links {
-    margin: auto 0;
+  margin: auto 0;
 }
+
+.code-background {
+    background-color: #1e1e1e;
+}
+
+.code-first-layer {
+    padding-left: 1.2rem;
+}
+
+.code-second-layer {
+    padding-left: 2.4rem;
+}
+
+.code-comment {
+  color: #669454;
+}
+
+.code-example {
+  color: white;
+}
+
+.skills-li > li > a {
+  color: var(--text-color);
+}
+
