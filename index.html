@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <main>
+      <header class="cv-header">
+        <img src="./Assets/CV-img.png" alt="CV-photo" class="cv-image" />
+        <h3 class="name">Aslani Oniani</h3>
+      </header>
+
+      <div class="main-content">
+        <div class="main-content-first">
+          <div class="contact">
+            <h4 class="main-content-header">Contacts:</h4>
+            <ul class="contact-li">
+              <li>
+                <span class="contact-li-span">Phone: </span> +995 579 41 11 99
+              </li>
+              <li>
+                <span class="">Email: </span>
+                aslanioniani2000@gmail.com
+              </li>
+              <li>
+                <span class="contact-li-span">Discord: </span> ASlani#1162
+              </li>
+            </ul>
+          </div>
+
+          <div class="about-me">
+            <h4 class="main-content-header">About Me:</h4>
+            <p class="about-me-text">
+              I am ambitious and hardworking individual who is constantly
+              working to grow professionally as a frontend developer.
+            </p>
+          </div>
+        </div>
+
+        <div class="main-content-second">
+          <div class="skills">
+            <h4 class="main-content-header">Skills:</h4>
+            <ul class="skills-li">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SCSS</li>
+              <li>JavaScript</li>
+              <li>Angular Basics</li>
+              <li>Git</li>
+            </ul>
+          </div>
+
+          <div class="experience">
+            <h4 class="main-content-header">Experience:</h4>
+            <p class="experience-text">
+              Service Support Specialist (since 2021)
+            </p>
+          </div>
+        </div>
+        <div class="main-content-last">
+          <div class="education">
+            <h4 class="main-content-header">Education:</h4>
+            <ul class="skills-li">
+              <li>
+                Bachelor, Tbilisi State University (2018 - current):
+                <ul>
+                  <li>Computer Science.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="languages">
+            <h4 class="main-content-header">Languages:</h4>
+            <ul class="skills-li">
+              <li>Georgian (Native)</li>
+              <li>English B2</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="code-example">
+        <h4 class="main-content-header">Code Example:</h4>
+        <div class="code-background">
+          <p class="code-comment">
+            //Write a JavaScript function that accepts a string as a parameter
+            and converts the first letter of each word of the string in upper
+            case.
+          </p>
+          <code>
+            function uppercase(str) <br />
+            { <br />
+            <span class="code-first-layer">var</span> array1 = str.split(' ');
+            <br />
+            <span class="code-first-layer">var</span> newarray1 = []; <br />
+
+            <span class="code-first-layer">for</span>(var x = 0; x <
+            array1.length; x++){ <br />
+            <span class="code-second-layer">newarray1</span
+            >.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1)); <br />
+            } <br />
+            <span class="code-first-layer">return</span> newarray1.join(' ');
+            <br />
+            } <br />
+            console.log(uppercase("the quick brown fox")); <br />
+          </code>
+        </div>
+      </div>
+
+      <div class="project">
+        <h4 class="main-content-header">Project Example:</h4>
+        <ul class="skills-li">
+          <li>
+            <a
+              href="https://haloween.netlify.app/"
+              target="_blank"
+              class="project-color"
+              >Halowen</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://headphones138.netlify.app/"
+              class="project-color"
+              target="_blank"
+              >Headphones</a
+            >
+          </li>
+        </ul>
+      </div>
+      <footer>
+        <a
+          href="https://app.rs.school/profile#view"
+          target="_blank"
+          class="footer-links"
+          ><img
+            src="./Assets/rs-school-logo.jpg"
+            alt="rs-school-logo"
+            class="footer-img"
+        /></a>
+        <h4 class="footer-date">April 2022</h4>
+        <a
+          href="https://github.com/Aslani138?tab=repositories"
+          target="_blank"
+          class="footer-links"
+          ><img
+            src="./Assets/Github-logo.png"
+            alt="Github-logo"
+            class="footer-img"
+        /></a>
+      </footer>
+    </main>
+  </body>
+</html>
